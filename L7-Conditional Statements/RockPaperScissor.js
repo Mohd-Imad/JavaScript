@@ -1,29 +1,32 @@
-//Rock Paper Scissors (just for understanding)
+//Rock Paper Scissors
+
+let playerOne = 'paper'
+let computer = 'rock'
 
 if(playerOne === computer){
-    //tie game
+    console.log('Game tie');
 }
 else if(playerOne === 'rock'){
     if(computer === 'paper'){
-        //computer wins
+        console.log('computer wins');
     }
     else{
-        //playerOne wins
+        console.log('playerOne wins');
     }
 }
 else if(playerOne === 'paper'){
     if(computer === 'scissors'){
-        //computer wins
+        console.log('computer wins');
     }
     else{
-        //playerOne wins
+        console.log('playerOne wins');
     }
 }
 else{
     if(computer === 'rock'){
-        //computer wins
+        console.log('computer wins');
     }
     else{
-        //playerOne wins
+        console.log('playerOne wins');
     }
 }

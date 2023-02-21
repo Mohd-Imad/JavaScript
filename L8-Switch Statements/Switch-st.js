@@ -31,6 +31,7 @@ switch(3){
         console.log("No case Matched");    
 }
 
+//Checking random number
 switch(Math.floor(Math.random()*5+1)){
     case 1:
         console.log(1);
